@@ -33,7 +33,7 @@ def known_word():
     next_card()
     print(len(to_learn))
     data = pandas.DataFrame(to_learn)
-    data.to_csv("data/words_to_learn.csv", index=False)
+    data.to_csv("words_to_learn.csv", index=False)
 
 window = Tk()
 window.title("Capstone project")
